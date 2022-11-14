@@ -17,7 +17,8 @@ This may take some time as it also installs R to conda environment. Finally, to 
 zero inflated Kendall tau as a kernel, `pcaPP` R package needs to be installed. This can be done by
 first starting R in a terminal while sgl environment is activated. Then install `pcaPP` by:
 ```R
-install.packages("pcaPP")
+install.packages("pcaPP") (not work - zsh: number expected)
+conda install -c r pcaPP 
 ```
 
 ## Usage 
